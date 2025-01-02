@@ -798,6 +798,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlSpeed: 50
+  xClampRange: 35
+  yClampRange: 25
 --- !u!1 &735715126
 GameObject:
   m_ObjectHideFlags: 0

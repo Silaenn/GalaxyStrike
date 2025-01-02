@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     [SerializeField] float controlSpeed = 10f;
+    [SerializeField] float xClampRange = 5f;
+    [SerializeField] float yClampRange = 5f;
     Vector2 movemnt;
 
     void Update()
@@ -18,7 +20,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private void ProcessTranslation()
     {
         float xOffset = movemnt.x * controlSpeed * Time.deltaTime;
+        float rawXPos = transform.localPosition.x + xOffset;
+        float clampedXPos = Mathf.Clamp(rawXPos, -xClampRange, xClampRange);
+
         float yOffset = movemnt.y * controlSpeed * Time.deltaTime;
-        transform.localPosition = new Vector3(transform.localPosition.x + xOffset, transform.localPosition.y + yOffset, 0f);
+        float rawYPos = transform.localPosition.y + yOffset;
+        float clampedYPos = Mathf.Clamp(rawYPos, -yClampRange, yClampRange);
+        transform.localPosition = new Vector3(clampedXPos, clampedYPos, 0f);
     }
 }
