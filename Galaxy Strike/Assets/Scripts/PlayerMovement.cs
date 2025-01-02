@@ -8,6 +8,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     [SerializeField] float yClampRange = 5f;
 
     [SerializeField] float controlRollFactor = 20f;
+    [SerializeField] float rotationSpeed = 10f;
     Vector2 movemnt;
 
     void Update()
@@ -35,6 +36,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void ProcessRotation(){
         Quaternion targetRotation = Quaternion.Euler(0f, 0f, -controlRollFactor * movemnt.x); 
     
-        transform.localRotation = targetRotation;
+        transform.localRotation = Quaternion.Lerp(transform.localRotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
 }
