@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: hitPoints
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2088239854621132656, guid: 2ae0b0d0a1766654385c867fd7e31608, type: 3}
+      propertyPath: scoreValue
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7619743748563102394, guid: 2ae0b0d0a1766654385c867fd7e31608, type: 3}
       propertyPath: m_Name
       value: Enemy 5
