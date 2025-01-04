@@ -929,6 +929,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 428136665435251610, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659753335667393578, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659753335667393578, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1716832722554755735, guid: f885291f1de207842a8d927449e1630f, type: 3}
       propertyPath: m_Name
       value: Player Rig
@@ -939,7 +951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2944122093941777594, guid: f885291f1de207842a8d927449e1630f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -101.5
+      value: -99.2
       objectReference: {fileID: 0}
     - target: {fileID: 2944122093941777594, guid: f885291f1de207842a8d927449e1630f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -973,10 +985,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2970623184000854364, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970623184000854364, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970623184000854364, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660283809068695805, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660283809068695805, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.559996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660283809068695805, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.83
+      objectReference: {fileID: 0}
     - target: {fileID: 4880062081822656261, guid: f885291f1de207842a8d927449e1630f, type: 3}
       propertyPath: destoryedVFX
       value: 
       objectReference: {fileID: 4431937444114376962, guid: 79378b143d52cd0498957ea134debd71, type: 3}
+    - target: {fileID: 5692045685014763399, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_Size.x
+      value: 10.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692045685014763399, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_Size.y
+      value: 6.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692045685014763399, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_Center.y
+      value: 4.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966579711546088044, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: xClampRange
+      value: 17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966579711546088044, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: yClampRange
+      value: 12.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966579711546088044, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: controlSpeed
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966579711546088044, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: rotationSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966579711546088044, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: controlRollFactor
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966579711546088044, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: controlPitchFactor
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7985218372432125885, guid: f885291f1de207842a8d927449e1630f, type: 3}
       propertyPath: crosshair
       value: 
