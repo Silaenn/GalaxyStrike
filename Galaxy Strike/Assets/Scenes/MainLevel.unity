@@ -2696,6 +2696,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5692045685014763399, guid: f885291f1de207842a8d927449e1630f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7985218372432125885, guid: f885291f1de207842a8d927449e1630f, type: 3}
       propertyPath: crosshair
       value: 
