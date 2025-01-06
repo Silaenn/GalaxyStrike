@@ -87,8 +87,31 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9192745988859020065, guid: 2ae0b0d0a1766654385c867fd7e31608, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6549233185138383085}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7619743748563102394, guid: 2ae0b0d0a1766654385c867fd7e31608, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3639882083201782154}
   m_SourcePrefab: {fileID: 100100000, guid: 2ae0b0d0a1766654385c867fd7e31608, type: 3}
+--- !u!1 &4967034790476635740 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7619743748563102394, guid: 2ae0b0d0a1766654385c867fd7e31608, type: 3}
+  m_PrefabInstance: {fileID: 3265311224573113574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3639882083201782154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4967034790476635740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63a5ab9506bcb444ca122103cb06f3ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  moveSpeed: 20
+  stoppingDistance: 5
 --- !u!4 &5963758248859301831 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9192745988859020065, guid: 2ae0b0d0a1766654385c867fd7e31608, type: 3}

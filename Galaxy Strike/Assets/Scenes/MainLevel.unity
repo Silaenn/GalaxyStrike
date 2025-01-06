@@ -2435,6 +2435,58 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3a04b80157e470b4ca88dffd1d5f8e17, type: 3}
   m_PrefabInstance: {fileID: 1503777970}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1539666348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1539666350}
+  - component: {fileID: 1539666349}
+  m_Layer: 0
+  m_Name: RespawnEnemy5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1539666349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539666348}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29a6beaa55a83b47b8089ce9e126919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 4967034790476635740, guid: 853c17f943142264aa09a8e2d7f0c646, type: 3}
+  respawnZ: 849
+  minX: 240
+  maxX: 450
+  minY: -4
+  maxY: -75
+  minRespawnTime: 1
+  maxRespawnTime: 3
+--- !u!4 &1539666350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539666348}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 362.63, y: -41, z: 918}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1651628353
 GameObject:
   m_ObjectHideFlags: 0
@@ -3401,3 +3453,4 @@ SceneRoots:
   - {fileID: 1651628356}
   - {fileID: 696619762}
   - {fileID: 1117971592}
+  - {fileID: 1539666350}
