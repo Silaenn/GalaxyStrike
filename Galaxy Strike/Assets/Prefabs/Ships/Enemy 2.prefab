@@ -187,8 +187,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63a5ab9506bcb444ca122103cb06f3ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1716832722554755735, guid: f885291f1de207842a8d927449e1630f, type: 3}
+  player: {fileID: 2944122093941777594, guid: f885291f1de207842a8d927449e1630f, type: 3}
   moveSpeed: 20
+  stoppingDistance: 1
 --- !u!4 &5963758248859301831 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9192745988859020065, guid: 2ae0b0d0a1766654385c867fd7e31608, type: 3}
